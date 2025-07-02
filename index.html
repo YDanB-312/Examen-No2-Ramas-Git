@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            float: left;
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px 10px;
+            background-color: #444;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #666;
+        }
+
+        main {
+            padding: 30px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #222;
+        }
+
+        iframe {
+            margin-top: 15px;
+            max-width: 100%;
+        }
+
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .galeria img {
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            height: auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #222;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="imagenes/logo.png" alt="Logo del sitio" width="80">
+        <h1>La Tecnología a lo largo del tiempo</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="historia.html">Historia</a>
+            <a href="tipos.html">Tipos</a>
+            <a href="componentes.html">Componentes</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>¿Qué es la tecnología?</h2>
+            <p>La tecnología es el conjunto de conocimientos técnicos y científicos que permiten desarrollar herramientas, sistemas y dispositivos para facilitar la vida del ser humano. Está presente en casi todos los aspectos de nuestra existencia y evoluciona constantemente.</p>
+        </section>
+
+        <section>
+            <h2>¿Por qué es importante?</h2>
+            <p>Gracias a la tecnología hemos podido resolver problemas complejos, mejorar la salud, optimizar la comunicación y acelerar procesos de producción. En el mundo actual, la tecnología es clave para el desarrollo económico y social de las naciones.</p>
+        </section>
+
+        <section>
+            <h2>Video explicativo</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=wD8yJnIG7gI" 
+                title="Video de YouTube" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>Galería tecnológica</h2>
+            <div class="galeria">
+                <img src="imagenes/imagen1.jpg" alt="Tecnología antigua">
+                <img src="imagenes/imagen2.png" alt="Tecnología moderna">
+                <img src="imagenes/imagen3.jpg" alt="Dispositivos inteligentes">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; ADSO-3142101
+        </p>
+    </footer>
+</body>
+</html>
